@@ -1,0 +1,28 @@
+### Job
+
+https://jobs.bpdts.co.uk/vacancies/vacancy-details.aspx?VacancyID=298&Prev=Apps
+
+###Site
+
+http://automationpractice.com/index.php
+
+
+
+###Source
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Selenium IDE</title></head><body><div id="root"></div><script type="text/javascript" src="/assets/neo.js"></script></body></html>
+
+
+1. Check website and will it load and operate as required in both Firefox and Chrome
+
+2. Install Eclipse with Cucumber software and Junit, Selenium add-ons
+
+3. Install Selenium IDE on both Firefox and Chrome
+
+4. Run test on both browsers and record it
+
+5. Export it as as a .side and a .java file from both browsers
+
+6. Read through .java file and make modifications
+
+7. Run the new programme 

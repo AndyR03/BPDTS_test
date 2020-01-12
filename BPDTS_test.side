@@ -1,0 +1,308 @@
+{
+  "id": "69b3dd0d-6482-41bc-81dc-9a0e5c315428",
+  "version": "2.0",
+  "name": "BPDTS_recorded",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "222449d5-bddb-4b53-ad58-05afa9f28353",
+    "name": "Test_R",
+    "commands": [{
+      "id": "89b44c7c-d920-4543-b797-805659d01060",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c8e6813-0d75-44ad-adbb-d93ae28178a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1061",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aa83fde-e67c-452c-a728-693f00a16120",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed90522f-77cc-4502-8e0d-963d758e8e64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=(//a[contains(text(),'Dresses')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "225aa2ae-b4f2-4b82-98e3-c3448ecb9044",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summer Dresses",
+      "targets": [
+        ["linkText=Summer Dresses", "linkText"],
+        ["css=.tree > .last:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Summer Dresses')])[3]", "xpath:link"],
+        ["xpath=//div[@id='categories_block_left']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=11&controller=category'])[3]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "225cc6cc-f01d-4beb-a379-ea0d9bb7a287",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectProductSort",
+      "targets": [],
+      "value": "label=Price: Lowest first"
+    }, {
+      "id": "f0281222-a7b5-4b8d-8fe3-e6a2452d7c17",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "f58e803e-f2b1-4129-a02f-740d4f7879ea",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "5c6282b8-7090-40e6-9743-55e13db54304",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "c749613d-542f-4661-9b9a-cde29e4f7feb",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0fbe85-13c6-4949-acf7-936389f06987",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_block_product:nth-child(2) .replace-2x",
+      "targets": [
+        ["css=.ajax_block_product:nth-child(2) .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Printed Summer Dress']", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea346182-d1a9-4133-aa4b-ba608df609b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "998afffe-e701-4848-8ae1-bdf4ac011297",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium > span",
+      "targets": [
+        ["css=.button-medium > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd11138-6e91-454a-8775-3c008eea7907",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-trash",
+      "targets": [
+        ["css=.icon-trash", "css:finder"],
+        ["xpath=//a[@id='5_19_0_0']/i", "xpath:idRelative"],
+        ["xpath=//td[7]/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ec0072-c233-47e6-813a-31fd6bff1b49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=(//a[contains(text(),'Dresses')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec7cc01-c9c7-4480-9bf7-bc5633962525",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summer Dresses",
+      "targets": [
+        ["linkText=Summer Dresses", "linkText"],
+        ["css=.tree > .last:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Summer Dresses')])[3]", "xpath:link"],
+        ["xpath=//div[@id='categories_block_left']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=11&controller=category'])[3]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c103b63-b5f6-4935-8182-b2b57af2c804",
+      "comment": "",
+      "command": "select",
+      "target": "id=selectProductSort",
+      "targets": [],
+      "value": "label=Price: Lowest first"
+    }, {
+      "id": "21cebc63-6998-4672-bf61-26907bcc99aa",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "b7f98f47-5aea-4589-a8bb-2a0126ebc36b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "8311da72-3a78-4b37-af48-aef35d8385d8",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-718.296875,-677"
+    }, {
+      "id": "41f2f53d-b9a9-46ab-8262-34ec2a43b448",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectProductSort",
+      "targets": [
+        ["id=selectProductSort", "id"],
+        ["css=#selectProductSort", "css:finder"],
+        ["xpath=//select[@id='selectProductSort']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-selectProductSort']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37ab7cc2-e9e3-488e-92d5-bcaead8ad065",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_block_product:nth-child(3) .replace-2x",
+      "targets": [
+        ["css=.ajax_block_product:nth-child(3) .replace-2x", "css:finder"],
+        ["xpath=(//img[@alt='Printed Summer Dress'])[2]", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf8ac95-d2e8-4c7b-9aea-3cd642d68855",
+      "comment": "",
+      "command": "click",
+      "target": "css=.exclusive > span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f38f259b-9415-4c97-8de6-b8f81757cbad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium > span",
+      "targets": [
+        ["css=.button-medium > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "923d1798-cc74-44a9-a81f-b585726b06ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout > span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4099a77b-5ec8-40b4-a6f2-3977e77cd212",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["222449d5-bddb-4b53-ad58-05afa9f28353"]
+  }],
+  "urls": ["http://automationpractice.com/index.php"],
+  "plugins": []
+}
